@@ -1,0 +1,328 @@
+header{
+    margin-top: -5px;
+background-image: linear-gradient(rgba(255, 192, 203, 0.793),white,rgba(255, 192, 203, 0.67));
+height: 50vh;
+}
+
+
+
+.ul1{
+    float: right;
+   
+}
+.li1{
+    margin: 10px;
+  display: inline-block;
+  margin-top: -10px;
+}
+.li1 .navi{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navi:hover{
+    padding: 7px;
+    border-radius: 7px;
+    border-bottom: 2px solid;
+    transition: 0.5s;
+
+}
+.h2kow{
+    text-align: center;
+    margin-top: 15px;
+    font-family: century;
+    font-size: 40px;
+}
+.span1{
+    color: red;
+}
+h4{
+    margin-top: 15px;
+    text-align: center;
+}
+.a1{
+    color: rgba(0, 0, 255, 0.333);
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: black 1px 1px;
+}
+.a1:hover{
+    border-bottom: 1px solid;
+    transition: 0.4s;
+    animation: alternate;
+    color: rgba(0, 0, 255, 0.955);
+}
+.img2{
+  margin-top: -90px;
+    float: right;
+}
+.main{
+    margin-top: 15px;
+    display: flex;
+}
+.gallery1{
+    margin-top: 15px;
+
+}
+.p1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.h2one{
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+.child1{
+    display: flex;
+    justify-content: center;
+}
+.child2{
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    background-color: red;
+    margin-top: 20px;
+}
+.kabo{
+
+}
+.p2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: century;
+}
+.child3{
+    background-image: linear-gradient(pink,rgba(255, 0, 0, 0.749));
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    "one two three four five"
+    "six seven eight nine ten";
+}
+.one{    
+margin-top: 10px;
+   
+ 
+}
+.two{
+    margin-top: 10px;
+
+    
+}
+.three{
+    margin-top: 10px;
+
+  
+}
+.four{
+    margin-top: 10px;
+
+  
+}
+.five{
+    margin-top: 10px;
+
+  
+}
+.six{
+    margin-top: 20px;
+
+  
+}
+.seven{
+    margin-top: 20px;
+
+}
+.eight{
+    margin-top: 20px;
+ 
+}
+.nine{
+    margin-top: 20px;
+
+}
+.ten{
+    margin-top: 20px;
+
+}
+.a2 {
+  display: flex;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.a2 h2{
+    font-size: 23px;
+border: 2px solid;
+border-color: yellow;
+    background-color: yellow;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.a2 h2:hover{
+    transition: 0.4s;
+font-size: 25px;
+    background-color: rgba(255, 255, 0, 0.745);
+}
+.footer{
+    height: 50vh;
+    background-color: black;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ul2{
+    list-style: none;
+    margin-top: 50px;
+   
+}
+.ul2 .li2{
+    margin-bottom: 15px;
+}
+.li2 a{
+  
+ margin-left: 40px;
+  color: white;
+
+ text-decoration: none;
+ text-align: left;
+ font-size: 20px;
+}
+.li2 a:hover{
+font-size: 25px;
+color: blueviolet;
+     transition: 0.5s;
+ 
+ 
+}
+@media only screen and (max-width:700px){
+    header{
+        display: flex;
+        justify-content: space-between;
+       background-image: linear-gradient(black, black);
+        height: 70px;
+    }
+    .logo{
+        height: 20px;
+    }
+    .ul1 .li1{
+     
+
+    }
+    .li1 .navi{
+        border-bottom: 1px solid;
+        border-color: pink ;
+        margin-top: -10px;
+     font-size: 20px;
+        color: white;
+    }
+    .h2kow{
+        display: none;
+    }
+    .a1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .main{
+        margin-top: 20px;
+    }
+    .gallery1{
+        height: 200px;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .h2one{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .child1 img{
+        height: 40px;
+        margin: 10px;
+    }
+    .child2 {
+        align-items: center;
+        justify-content: center;
+display: flex;
+flex-direction: column;
+    }
+    .child2 .kabo{
+        height: 200px;
+        width: 200px;
+    }
+    .child2 .p2{
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .child3{
+        margin-top: 40px;
+    }
+    .child3 img{
+        height: 100px;
+        width: 70px;
+        border-radius: 10px;
+    }
+    .child3 .a2{
+      
+      
+    }
+    .child3 .a2 h2{
+        font-size: 10px;
+    }
+    .footer{
+      
+    }
+    .footer .ul2{
+
+    }
+    .ul2 .li2 a{
+        font-size: 10px;
+    }
+
+    
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
