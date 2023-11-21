@@ -268,11 +268,16 @@ flex-direction: column;
         margin-top: -10px;
     }
     .child3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
         margin-top: 40px;
     }
     .child3 img{
         height: 100px;
-        width: 70px;
+        width: 100px;
         border-radius: 10px;
     }
     .child3 .a2{
@@ -286,21 +291,26 @@ flex-direction: column;
    
     }
     .footer .ul2{
+      
 text-align: left;
 
     }
       .ul2{
-        margin-left: -30px;
+      
+        margin-left: 10px;
         list-style-type: none;
     }
      .ul2 .li2{
-        margin-bottom: 1px;
+        margin-bottom: px;
      }
     .ul2 .li2 a{
         margin: 1px;
         padding: 1px;
-        color: yellow;
+        color: white;
         font-size: 10px;
+    }
+    #li22{
+        display: none;
     }
 
     
